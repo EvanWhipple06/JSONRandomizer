@@ -29,6 +29,8 @@ public class JSONCommander {
                 for(int i = 1; i < temp.length; i++) {
                     arguments[i-1] = temp[i];
                 }
+
+                arguments[0] = arguments[0];        //why does this work??? i dont know, but "random" breaks without it so NO TOUCHY!!!
             } catch (Exception e) {
                 arguments = new String[] {""};
             }
