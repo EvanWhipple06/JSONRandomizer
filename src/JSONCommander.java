@@ -158,7 +158,7 @@ public class JSONCommander {
 
     public static String[] demomanRand() {
         Random rand = new Random();
-        String[] returnArr = {Weapons.scoutPrimaries.get(rand.nextInt(Weapons.scoutPrimaries.size())), Weapons.scoutSecondaries.get(rand.nextInt(Weapons.scoutSecondaries.size())), Weapons.scoutMelees.get(rand.nextInt(Weapons.scoutMelees.size()))};
+        String[] returnArr = {Weapons.demomanPrimaries.get(rand.nextInt(Weapons.demomanPrimaries.size())), Weapons.demomanSecondaries.get(rand.nextInt(Weapons.demomanSecondaries.size())), Weapons.demomanMelees.get(rand.nextInt(Weapons.demomanMelees.size()))};
         return returnArr;
     }
 
